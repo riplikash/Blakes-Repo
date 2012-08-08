@@ -82,4 +82,9 @@ public class SimpleObject {
     public double getBounciness() {
         return bounciness/100;
     }
+
+    public void move(double x, double y) {
+        square.translation.add(x, y);
+
+    }
 }

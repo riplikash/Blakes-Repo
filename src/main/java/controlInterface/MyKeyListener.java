@@ -1,9 +1,11 @@
 package controlInterface;
 
+
+import com.jogamp.newt.event.KeyEvent;
+import com.jogamp.newt.event.KeyListener;
 import singletons.CommandQueue;
 
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
+
 
 /**
  * Created with IntelliJ IDEA.

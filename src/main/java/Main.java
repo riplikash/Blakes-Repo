@@ -1,3 +1,6 @@
+import com.jogamp.newt.event.WindowAdapter;
+import com.jogamp.newt.event.WindowEvent;
+import com.jogamp.newt.opengl.GLWindow;
 import com.jogamp.opengl.util.FPSAnimator;
 import controlInterface.MyKeyListener;
 
@@ -5,10 +8,6 @@ import javax.media.opengl.GLAutoDrawable;
 import javax.media.opengl.GLCapabilities;
 import javax.media.opengl.GLEventListener;
 import javax.media.opengl.GLProfile;
-import javax.media.opengl.awt.GLCanvas;
-import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 
 public class Main implements GLEventListener {
 
@@ -16,36 +15,37 @@ public class Main implements GLEventListener {
     private final GameEngine gameEngine = new GameEngine();
 
     public static void main(String[] args) {
-        GLCanvas canvas = getCanvas();
-        createFrame(canvas);
-        FPSAnimator animator = setUpCanvas(canvas);
-        animator.start();
+
+        GLWindow window = getNewtWindow();
+        configureNewtWindow(window);
+        addListenersToWindow(window);
+        getAnimator(window).start();
     }
 
-    private static GLCanvas getCanvas() {
-        return new GLCanvas(new GLCapabilities(GLProfile.getDefault()));
-    }
-
-    private static FPSAnimator setUpCanvas(GLCanvas canvas) {
-        canvas.addGLEventListener(new Main());
-        canvas.addKeyListener(new MyKeyListener());
-        canvas.requestFocus();
-        FPSAnimator animator = new FPSAnimator(canvas, 60);
-        animator.add(canvas);
+    private static FPSAnimator getAnimator(GLWindow window) {
+        FPSAnimator animator = new FPSAnimator(window, 60);
+        animator.add(window);
         return animator;
     }
 
-    private static void createFrame(GLCanvas canvas) {
-        Frame frame = new Frame("AWT Window Test");
-        frame.setSize(800, 800);
-        frame.add(canvas);
-        frame.setVisible(true);
-
-        frame.addWindowListener(new WindowAdapter() {
-            public void windowClosing(WindowEvent e) {
+    private static void addListenersToWindow(GLWindow window) {
+        window.addWindowListener(new WindowAdapter() {
+            public void windowDestroyNotify(WindowEvent arg0) {
                 System.exit(0);
-            }
+            };
         });
+        window.addGLEventListener(new Main());
+        window.addKeyListener(new MyKeyListener());
+    }
+
+    private static void configureNewtWindow(GLWindow window) {
+        window.setSize(600, 600);
+        window.setVisible(true);
+        window.setTitle("NEWT Window Test");
+    }
+
+    private static GLWindow getNewtWindow() {
+        return GLWindow.create(new GLCapabilities(GLProfile.getDefault()));
     }
 
     @Override

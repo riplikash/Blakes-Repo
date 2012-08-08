@@ -95,7 +95,7 @@ public class GameEngine {
     }
 
     private void jetCommand() {
-        square.accel(0.0, 0.005);
+        square.accel(0.0, 0.01);
     }
 
     private void runLeft() {
@@ -114,27 +114,27 @@ public class GameEngine {
     }
 
     private void rotCClock() {
-        square.rotatationalAccel(-.001);
+        square.rotatationalAccel(.01);
     }
 
     private void rotClock() {
-        square.rotatationalAccel(.001);
+        square.rotatationalAccel(-.01);
     }
 
     private void posYScale() {
-        square.scale(0.0,0.001);
+        square.scale(0.0,0.01);
     }
 
     private void negYScale() {
-        square.scale(0.0,-0.001);
+        square.scale(0.0,-0.01);
     }
 
     private void negXScale() {
-        square.scale(-.001,0.0);
+        square.scale(-.01,0.0);
     }
 
     private void posXScale() {
-        square.scale(.001,0.0);
+        square.scale(.01,0.0);
     }
 
     private void escCommand() {

@@ -28,8 +28,11 @@ public class SimplePhysics {
         {
             if (!xHit)
             {
-                if (point.getX() <= -1 )
+                if (point.getX() < -1 )
                 {
+                    double difference = point.getX() + 1;
+                    square.move(difference*-1, 0);
+
                     xHit = true;
                     double xAccel = square.getVector().getX() * -1;
                     if (xAccel > 0)
@@ -38,8 +41,10 @@ public class SimplePhysics {
                         Double reboundForce = xAccel + xAccel * bounciness;
                         square.accel(reboundForce, 0);
                     }
-                } else if (point.getX() >= 1)
+                } else if (point.getX() > 1)
                 {
+                    double difference = point.getX() - 1;
+                    square.move(difference*-1, 0);
                     xHit = true;
                     double xAccel = square.getVector().getX() * -1;
                     if (xAccel < 0)
@@ -53,8 +58,13 @@ public class SimplePhysics {
             }
             if (!yHit)
             {
-                if (point.getY() <= -1 )
+                if (point.getY() < -1 )
                 {
+                    if (point.getY() < -1.01)
+                    {
+                        double difference = point.getY() + 1;
+                        square.move(0, difference*-1);
+                    }
                     yHit = true;
                     double yAccel = square.getVector().getY() * -1;
                     if (yAccel > 0)
@@ -63,8 +73,10 @@ public class SimplePhysics {
                         Double reboundForce = yAccel + yAccel * bounciness;
                         square.accel(0, reboundForce);
                     }
-                } else if (point.getY() >= 1)
+                } else if (point.getY() > 1)
                 {
+                    double difference = point.getY() - 1;
+                    square.move(0, difference*-1);
                     yHit = true;
                     double yAccel = square.getVector().getY() * -1;
                     if (yAccel < 0)
@@ -84,6 +96,6 @@ public class SimplePhysics {
     }
 
     private static void applyGravity(SimpleObject square) {
-        square.accel(0.0,-0.0005);
+        square.accel(0.0,-0.001);
     }
 }
