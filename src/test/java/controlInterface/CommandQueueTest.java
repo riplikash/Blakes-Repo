@@ -1,4 +1,4 @@
-package singletons;
+package controlInterface;
 
 import org.junit.After;
 import org.junit.Before;
@@ -18,32 +18,32 @@ import static junit.framework.Assert.assertEquals;
 public class CommandQueueTest {
     @Before
     public void setUp() throws Exception {
-        CommandQueue.getSingletonObject().addCommand(11);
+        CommandQueue.getCommandQueue().addCommand(11);
 
     }
 
     @After
     public void tearDown() throws Exception {
-        CommandQueue.getSingletonObject().clearQueue();
+        CommandQueue.getCommandQueue().clearQueue();
     }
 
     @Test
     public void testGetSingletonObject() throws Exception {
-        CommandQueue CQ = CommandQueue.getSingletonObject();
+        CommandQueue CQ = CommandQueue.getCommandQueue();
         assertEquals(true, CQ != null);
     }
 
     @Test
     public void testGetQueue() throws Exception {
-        LinkedList<Integer> testQueue = CommandQueue.getSingletonObject().getQueue();
+        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
         assertEquals(1, testQueue.size());
     }
 
     @Test
     public void testAddCommand() throws Exception {
-        CommandQueue.getSingletonObject().addCommand(22);
-        CommandQueue.getSingletonObject().addCommand(33);
-        LinkedList<Integer> testQueue = CommandQueue.getSingletonObject().getQueue();
+        CommandQueue.getCommandQueue().addCommand(22);
+        CommandQueue.getCommandQueue().addCommand(33);
+        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
         assertEquals(new Integer(11), testQueue.get(0));
         assertEquals(new Integer(22), testQueue.get(1));
         assertEquals(new Integer(33), testQueue.get(2));
@@ -51,18 +51,18 @@ public class CommandQueueTest {
 
     @Test
     public void testClearQueue() throws Exception {
-        CommandQueue.getSingletonObject().clearQueue();
-        LinkedList<Integer> testQueue = CommandQueue.getSingletonObject().getQueue();
+        CommandQueue.getCommandQueue().clearQueue();
+        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
         assertEquals(0, testQueue.size());
 
     }
 
     @Test
     public void testPullCommand() {
-        CommandQueue.getSingletonObject().addCommand(22);
-        Integer i = CommandQueue.getSingletonObject().pullCommand();
+        CommandQueue.getCommandQueue().addCommand(22);
+        Integer i = CommandQueue.getCommandQueue().pullCommand();
         assertEquals(new Integer(11), i);
-        LinkedList<Integer> list = CommandQueue.getSingletonObject().getQueue();
+        LinkedList<Integer> list = CommandQueue.getCommandQueue().getQueue();
         assertEquals(1, list.size());
         assertEquals(new Integer(22), list.get(0));
 

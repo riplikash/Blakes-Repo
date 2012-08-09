@@ -3,8 +3,6 @@ package controlInterface;
 
 import com.jogamp.newt.event.KeyEvent;
 import com.jogamp.newt.event.KeyListener;
-import singletons.CommandQueue;
-
 
 
 /**
@@ -19,21 +17,15 @@ public class MyKeyListener implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent keyEvent) {
-
-        System.out.println(keyEvent.getKeyCode() + " was pressed");
-        CommandQueue.getSingletonObject().addCommand(keyEvent.getKeyCode());
+        CommandQueue.getCommandQueue().addCommand(keyEvent.getKeyCode());
     }
 
     @Override
     public void keyReleased(KeyEvent keyEvent) {
-
     }
 
     @Override
     public void keyTyped(KeyEvent keyEvent) {
-
-
-
     }
 
 

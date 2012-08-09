@@ -1,20 +1,30 @@
+import com.jogamp.newt.event.KeyListener;
 import com.jogamp.newt.event.WindowAdapter;
 import com.jogamp.newt.event.WindowEvent;
 import com.jogamp.newt.opengl.GLWindow;
 import com.jogamp.opengl.util.FPSAnimator;
-import controlInterface.MyKeyListener;
+import gameEngine.GameEngineInterface;
 
 import javax.media.opengl.GLAutoDrawable;
 import javax.media.opengl.GLCapabilities;
 import javax.media.opengl.GLEventListener;
 import javax.media.opengl.GLProfile;
 
-public class Main implements GLEventListener {
+public class DapperEngine implements GLEventListener {
 
 
-    private final GameEngine gameEngine = new GameEngine();
+    private final GameEngineInterface gameEngine;
+    private final KeyListener keyListener;
+    private final DapperSettings settings;
 
-    public static void main(String[] args) {
+    public DapperEngine(GameEngineInterface newEngine, KeyListener newKeyListener, DapperSettings newSettings) {
+        gameEngine = newEngine;
+        keyListener = newKeyListener;
+        settings = newSettings;
+
+    }
+
+    public void start() {
 
         GLWindow window = getNewtWindow();
         configureNewtWindow(window);
@@ -22,29 +32,29 @@ public class Main implements GLEventListener {
         getAnimator(window).start();
     }
 
-    private static FPSAnimator getAnimator(GLWindow window) {
-        FPSAnimator animator = new FPSAnimator(window, 60);
+    private FPSAnimator getAnimator(GLWindow window) {
+        FPSAnimator animator = new FPSAnimator(window, settings.FPS);
         animator.add(window);
         return animator;
     }
 
-    private static void addListenersToWindow(GLWindow window) {
+    private void addListenersToWindow(GLWindow window) {
         window.addWindowListener(new WindowAdapter() {
             public void windowDestroyNotify(WindowEvent arg0) {
                 System.exit(0);
-            };
+            }
         });
-        window.addGLEventListener(new Main());
-        window.addKeyListener(new MyKeyListener());
+        window.addGLEventListener(this);
+        window.addKeyListener(keyListener);
     }
 
-    private static void configureNewtWindow(GLWindow window) {
-        window.setSize(600, 600);
+    private void configureNewtWindow(GLWindow window) {
+        window.setSize(settings.windowWidth, settings.windowHeight);
         window.setVisible(true);
-        window.setTitle("NEWT Window Test");
+        window.setTitle(settings.windowTitle);
     }
 
-    private static GLWindow getNewtWindow() {
+    private GLWindow getNewtWindow() {
         return GLWindow.create(new GLCapabilities(GLProfile.getDefault()));
     }
 

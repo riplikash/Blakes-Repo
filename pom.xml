@@ -8,9 +8,5 @@
     <artifactId>JOGL_stuff</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
-    <modules>
-        <module>util</module>
-    </modules>
-
 
 </project>

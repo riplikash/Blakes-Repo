@@ -1,4 +1,4 @@
-package singletons;
+package controlInterface;
 
 
 import java.util.LinkedList;
@@ -11,7 +11,7 @@ public class CommandQueue {
         queue = new LinkedList<Integer>();
     }
 
-    public static CommandQueue getSingletonObject()
+    public static CommandQueue getCommandQueue()
     {
         if (ref == null)
             // it's ok, we can call this constructor

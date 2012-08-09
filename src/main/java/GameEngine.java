@@ -1,9 +1,10 @@
+import controlInterface.CommandQueue;
+import gameEngine.GameEngineInterface;
 import math.Point2D;
 import math.SimpleColor;
 import math.SimplePhysics;
 import objects.SimpleObject;
 import render.Render;
-import singletons.CommandQueue;
 
 import javax.media.opengl.GLAutoDrawable;
 import java.util.LinkedList;
@@ -17,21 +18,23 @@ import static java.awt.event.KeyEvent.*;
  * Time: 10:09 AM
  * To change this template use File | Settings | File Templates.
  */
-public class GameEngine {
+public class GameEngine implements GameEngineInterface {
     private final Render render = new Render();
 
+    @Override
     public void update() {
 
         executeCommands();
         incrementGame();
 //        Point2D theta = new Point2D(.004, 0.002);
 //        triangle.translate(theta);
-//        Game s = Game.getSingletonObject();
+//        Game s = Game.getCommandQueue();
 //        s.square.translation = s.square.translation.sum(new Point2D(-.001, 0.01));
     }
 
     SimpleObject square;
 
+    @Override
     public void init() {
 
         square = new SimpleObject(new Point2D(0.0,0.0), new Point2D(.1, .1), SimpleColor.green());
@@ -44,13 +47,12 @@ public class GameEngine {
     }
 
     public void executeCommands() {
-        LinkedList<Integer> commandQueue = CommandQueue.getSingletonObject().getQueue();
-        CommandQueue.getSingletonObject().clearQueue();
+        LinkedList<Integer> commandQueue = CommandQueue.getCommandQueue().getQueue();
+        CommandQueue.getCommandQueue().clearQueue();
 
 
         for (Integer command: commandQueue)
         {
-            System.out.println("executing " + command);
             switch (command)
             {
                 case VK_UP:
@@ -157,8 +159,15 @@ public class GameEngine {
         square.accel(0.0, 0.001);
     }
 
+    @Override
     public void render(GLAutoDrawable drawable) {
         render.render(drawable, square);
 
     }
+
+    @Override
+    public void dispose() {
+    }
+
+
 }
