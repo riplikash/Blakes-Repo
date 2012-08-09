@@ -1,2 +1,9 @@
 target/**
 .DS_Store
+target/classes/controlInterface/MyKeyListener.class
+
+target/classes/math/SimplePhysics.class
+
+target/classes/objects/SimpleObject.class
+
+target/classes/GameEngine.class
