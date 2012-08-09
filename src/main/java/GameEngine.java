@@ -35,7 +35,7 @@ public class GameEngine {
     public void init() {
 
         square = new SimpleObject(new Point2D(0.0,0.0), new Point2D(.1, .1), SimpleColor.green());
-
+        square.setBounciness(85);
     }
 
     public void incrementGame() {
