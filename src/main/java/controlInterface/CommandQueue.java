@@ -4,11 +4,11 @@ package controlInterface;
 import java.util.LinkedList;
 
 public class CommandQueue {
-    LinkedList<Integer> queue;
+    LinkedList<Short> queue;
 
     private CommandQueue()
     {
-        queue = new LinkedList<Integer>();
+        queue = new LinkedList<Short>();
     }
 
     public static CommandQueue getCommandQueue()
@@ -19,22 +19,26 @@ public class CommandQueue {
         return ref;
     }
 
-    public LinkedList<Integer> getQueue() {
+    public LinkedList<Short> getQueue() {
         return queue;
     }
 
-    public void addCommand(Integer i)
+    public void addCommand(Short i)
     {
         queue.addLast(i);
+    }
+    public void addCommand(short i)
+    {
+        queue.addLast(Short.valueOf(i));
     }
 
     public void clearQueue()
     {
-        queue = new LinkedList<Integer>();
+        queue = new LinkedList<Short>();
     }
 
-    public Integer pullCommand() {
-        Integer rtInt = queue.getFirst();
+    public Short pullCommand() {
+        Short rtInt = queue.getFirst();
         queue.removeFirst();
         return rtInt;
     }

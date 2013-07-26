@@ -1,8 +1,8 @@
 package controlInterface;
 
-
 import com.jogamp.newt.event.KeyEvent;
 import com.jogamp.newt.event.KeyListener;
+
 
 
 /**
@@ -17,16 +17,15 @@ public class MyKeyListener implements KeyListener {
 
     @Override
     public void keyPressed(KeyEvent keyEvent) {
-        CommandQueue.getCommandQueue().addCommand(keyEvent.getKeyCode());
+
+        CommandQueue queue = CommandQueue.getCommandQueue();
+        queue.addCommand(keyEvent.getKeyCode());
+
     }
 
     @Override
     public void keyReleased(KeyEvent keyEvent) {
+        //To change body of implemented methods use File | Settings | File Templates.
     }
-
-    @Override
-    public void keyTyped(KeyEvent keyEvent) {
-    }
-
 
 }

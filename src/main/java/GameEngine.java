@@ -7,9 +7,13 @@ import objects.SimpleObject;
 import render.Render;
 
 import javax.media.opengl.GLAutoDrawable;
+
+import com.jogamp.newt.event.KeyEvent;
+import static com.jogamp.newt.event.KeyEvent.*;
+
 import java.util.LinkedList;
 
-import static java.awt.event.KeyEvent.*;
+
 
 /**
  * Created with IntelliJ IDEA.
@@ -47,11 +51,11 @@ public class GameEngine implements GameEngineInterface {
     }
 
     public void executeCommands() {
-        LinkedList<Integer> commandQueue = CommandQueue.getCommandQueue().getQueue();
+        LinkedList<Short> commandQueue = CommandQueue.getCommandQueue().getQueue();
         CommandQueue.getCommandQueue().clearQueue();
 
 
-        for (Integer command: commandQueue)
+        for (Short command: commandQueue)
         {
             switch (command)
             {

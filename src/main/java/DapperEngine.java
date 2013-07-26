@@ -25,11 +25,41 @@ public class DapperEngine implements GLEventListener {
     }
 
     public void start() {
+        GLProfile glProfile = GLProfile.getDefault();
+        GLCapabilities glCapabilities = new GLCapabilities(glProfile);
+        GLWindow glWindow = GLWindow.create(glCapabilities);
+        final FPSAnimator fpsAnimator = new FPSAnimator(glWindow, settings.FPS, true);
+
+        glWindow.addWindowListener(new WindowAdapter(){
+            @Override
+            public void windowDestroyNotify(WindowEvent e){
+                new Thread(){
+                    @Override
+                    public void run(){
+                        fpsAnimator.stop();
+                        System.exit(0);
+                    }
+                }.start();
+            };
+        });
+
+        glWindow.addGLEventListener(this);
+        glWindow.addKeyListener(keyListener);
+        glWindow.setTitle("'sup");
+        glWindow.setSize(688, 800);
+        glWindow.setVisible(true);
+
+        fpsAnimator.start();
+        /*GLProfile glProfile = GLProfile.getDefault();
+        GLCapabilities glCapabilities = new GLCapabilities(glProfile);
+        GLWindow glWindow = GLWindow.create(glCapabilities);
+        int FPS = 60;
+        final FPSAnimator fpsAnimator = new FPSAnimator(glWindow, FPS, true);
 
         GLWindow window = getNewtWindow();
         configureNewtWindow(window);
         addListenersToWindow(window);
-        getAnimator(window).start();
+        getAnimator(window).start();                                         */
     }
 
     private FPSAnimator getAnimator(GLWindow window) {

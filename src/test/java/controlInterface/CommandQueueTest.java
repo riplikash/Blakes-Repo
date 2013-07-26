@@ -7,6 +7,7 @@ import org.junit.Test;
 import java.util.LinkedList;
 
 import static junit.framework.Assert.assertEquals;
+import static com.jogamp.newt.event.KeyEvent.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -17,8 +18,8 @@ import static junit.framework.Assert.assertEquals;
  */
 public class CommandQueueTest {
     @Before
-    public void setUp() throws Exception {
-        CommandQueue.getCommandQueue().addCommand(11);
+    public void setUp() throws Exception {    	
+        CommandQueue.getCommandQueue().addCommand(VK_UP);
 
     }
 
@@ -35,36 +36,36 @@ public class CommandQueueTest {
 
     @Test
     public void testGetQueue() throws Exception {
-        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
+        LinkedList<Short> testQueue = CommandQueue.getCommandQueue().getQueue();
         assertEquals(1, testQueue.size());
     }
 
     @Test
     public void testAddCommand() throws Exception {
-        CommandQueue.getCommandQueue().addCommand(22);
-        CommandQueue.getCommandQueue().addCommand(33);
-        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
-        assertEquals(new Integer(11), testQueue.get(0));
-        assertEquals(new Integer(22), testQueue.get(1));
-        assertEquals(new Integer(33), testQueue.get(2));
+        CommandQueue.getCommandQueue().addCommand(VK_DOWN);
+        CommandQueue.getCommandQueue().addCommand(VK_LEFT);
+        LinkedList<Short> testQueue = CommandQueue.getCommandQueue().getQueue();
+        assertEquals(new Short(VK_UP), testQueue.get(0));
+        assertEquals(new Short(VK_DOWN), testQueue.get(1));
+        assertEquals(new Short(VK_LEFT), testQueue.get(2));
     }
 
     @Test
     public void testClearQueue() throws Exception {
         CommandQueue.getCommandQueue().clearQueue();
-        LinkedList<Integer> testQueue = CommandQueue.getCommandQueue().getQueue();
+        LinkedList<Short> testQueue = CommandQueue.getCommandQueue().getQueue();
         assertEquals(0, testQueue.size());
 
     }
 
     @Test
     public void testPullCommand() {
-        CommandQueue.getCommandQueue().addCommand(22);
-        Integer i = CommandQueue.getCommandQueue().pullCommand();
-        assertEquals(new Integer(11), i);
-        LinkedList<Integer> list = CommandQueue.getCommandQueue().getQueue();
+        CommandQueue.getCommandQueue().addCommand(VK_DOWN);
+        Short i = CommandQueue.getCommandQueue().pullCommand();
+        assertEquals(new Short(VK_UP), i);
+        LinkedList<Short> list = CommandQueue.getCommandQueue().getQueue();
         assertEquals(1, list.size());
-        assertEquals(new Integer(22), list.get(0));
+        assertEquals(new Short(VK_DOWN), list.get(0));
 
     }
 }
