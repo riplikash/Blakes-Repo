@@ -13,8 +13,6 @@ import static com.jogamp.newt.event.KeyEvent.*;
 
 import java.util.LinkedList;
 
-
-
 /**
  * Created with IntelliJ IDEA.
  * User: blake

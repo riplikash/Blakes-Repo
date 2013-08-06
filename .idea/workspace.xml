@@ -2,311 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da3dd4d1-ae22-4aab-abbd-172ab9192e90" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms.7z" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\aggregated.artifact.properties.sorted" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\all.artifact.properties.sorted" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\etc\profile.jogl" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\etc\test.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\etc\test.sh" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\etc\test_dbg.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\etc\test_dbg.sh" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\gluegen-java-src.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\gluegen.LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\gluegen.artifact.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\gluegen-gl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.awt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.cg.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.core.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.gldesktop.dbg.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.gldesktop.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.glmobile.dbg.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.glmobile.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.glu.gldesktop.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.glu.mipmap.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.glu.tess.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.omx.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.os.osx.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.os.win.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.os.x11.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.sdk.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.swt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.util.awt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.util.fixedfuncemu.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.util.gldesktop.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl.util.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\jogl_cg-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow.awt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow.core.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow.os.macosx.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow.os.win.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\nativewindow.os.x11.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.awt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.core.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.broadcomegl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.intelgdl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.kd.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.macosx.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.win.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.driver.x11.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.event.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\atomic\newt.ogl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-android-armeabi-v7a-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-android-armeabi-v7a.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen-rt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\gluegen.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-armeabi-v7a-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-armeabi-v7a.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal-test.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\joal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-armeabi-v7a-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-armeabi-v7a.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jocl.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogamp.android-launcher-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogamp.android-launcher.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-android-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-linux-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-linux-armv7.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-linux-armv7hf.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-linux-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-macosx-universal.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-solaris-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-solaris-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-windows-amd64.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl-all-natives-windows-i586.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.all-android-armeabi-v7a-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.all-android-armeabi-v7a.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.all-mobile.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.all-noawt.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.all.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.test-android-unsigned.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.test-android.apk" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jar\jogl.test.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\jogl-awt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\jogl-noawt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\nativewindow-awt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\nativewindow-noawt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\newt-awt-jogl.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\newt-awt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\newt-noawt-jogl.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\atomic\newt-noawt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\gluegen-rt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\joal.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jocl.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-all-awt-cg.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-all-awt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-all-mobile.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-all-noawt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-ElektronenMultiplizierer-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-ElektronenMultiplizierer.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-GraphTextDemo01-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-GraphTextDemo01.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-GraphUISceneDemo01-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-GraphUISceneDemo01.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-MovieCube-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-MovieCube.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-normal-launcheronly.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-normal-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-normal-napplet2.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-normal.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-special-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt-gears-special.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-runner-newt.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-version-lancheronly.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-version-napplet.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-version.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-applet-version.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-application-version.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-javaws-version.jnlp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jnlp-files\jogl-test-applets.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\joal-java-src.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\joal.LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\joal.README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\joal.artifact.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jocl.artifact.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jogl-java-src.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jogl.LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jogl.README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\jogl.artifact.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\android-armv7\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-amd64\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-armv7hf\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\linux-i586\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libgluegen-rt.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libjoal.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libjocl.dylib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libjogl_cg.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libjogl_desktop.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libjogl_mobile.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libnativewindow_awt.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libnativewindow_macosx.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\macosx-universal\libnewt.jnilib" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-amd64\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libgluegen-rt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libjoal.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libjocl.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libjogl_cg.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libjogl_desktop.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libjogl_mobile.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libnativewindow_awt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libnativewindow_x11.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\solaris-i586\libnewt.so" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\gluegen-rt.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\joal.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\jocl.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\jogl_cg.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\jogl_desktop.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\jogl_mobile.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\nativewindow_awt.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\nativewindow_win32.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-amd64\newt.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\README.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\gluegen-rt.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\joal.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\jocl.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\jogl_cg.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\jogl_desktop.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\jogl_mobile.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\nativewindow_awt.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\nativewindow_win32.dll" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\bstephens\Documents\GitHub\Blakes-Repo\src\lib\jogamp-all-platforms\lib\windows-i586\newt.dll" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controlInterface/CommandQueue.java" afterPath="$PROJECT_DIR$/src/main/java/controlInterface/CommandQueue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/DapperEngine.java" afterPath="$PROJECT_DIR$/src/main/java/DapperEngine.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JOGL_stuff.iml" afterPath="$PROJECT_DIR$/JOGL_stuff.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/controlInterface/MyKeyListener.java" afterPath="$PROJECT_DIR$/src/main/java/controlInterface/MyKeyListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JOGL_stuff.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="da3dd4d1-ae22-4aab-abbd-172ab9192e90" time="1374862072206" ignored="false" />
+    <file path="/Dummy.txt" changelist="da3dd4d1-ae22-4aab-abbd-172ab9192e90" time="1374874100481" ignored="false" />
     <file path="/pom.xml" changelist="da3dd4d1-ae22-4aab-abbd-172ab9192e90" time="1374859084004" ignored="false" />
     <file path="/MyKeyListener.java" changelist="da3dd4d1-ae22-4aab-abbd-172ab9192e90" time="1374862679373" ignored="false" />
     <file path="/CommandQueue.java" changelist="da3dd4d1-ae22-4aab-abbd-172ab9192e90" time="1374859821170" ignored="false" />
@@ -326,7 +27,23 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/main/java/GameEngine.java" line="30" class="GameEngine" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -363,23 +80,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/GameEngine.java" line="26" class="GameEngine" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -401,7 +102,7 @@
       <file leaf-file-name="DapperEngine.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/DapperEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="13" selection-start="429" selection-end="429" vertical-scroll-proportion="-1.6279926">
+            <state line="48" column="45" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.71885717">
               <folding />
             </state>
           </provider>
@@ -410,7 +111,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="10" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -419,7 +120,7 @@
       <file leaf-file-name="GameEngine.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/GameEngine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+            <state line="24" column="13" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -446,7 +147,7 @@
       <file leaf-file-name="CommandQueue.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controlInterface/CommandQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+            <state line="8" column="22" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -455,7 +156,7 @@
       <file leaf-file-name="CommandQueueTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/controlInterface/CommandQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+            <state line="18" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -482,8 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/java/controlInterface/CommandQueue.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/DapperEngineTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/DapperEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/controlInterface/MyKeyListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DapperEngine.java" />
       </list>
     </option>
   </component>
@@ -503,7 +204,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JOGL_stuff" />
+          <option name="myItemId" value="parent" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -513,7 +214,7 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="JOGL_stuff" />
+          <option name="myItemId" value="parent" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
@@ -555,16 +256,20 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JOGL_stuff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JOGL_stuff" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -673,104 +378,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOGL_stuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="All">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Blakes-Repo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Blakes-Repo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Blakes-Repo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="test/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controlInterface">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Blakes-Repo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Blakes-Repo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="src">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="main/java">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="controlInterface">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JOGL_stuff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -790,12 +407,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="JUnit.DapperEngineTest.testMain">
     <configuration default="false" name="DapperEngineTest" type="JUnit" factoryName="JUnit" temporary="true">
@@ -890,19 +507,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -928,6 +532,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1013,21 +630,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34044823" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17769477" sideWeight="0.67074525" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12700106" sideWeight="0.67074525" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1106,9 +723,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/EventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="31" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DapperEngineTest.java">
@@ -1120,56 +735,46 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jogamp/jogl/jogl-all/2.0.2/jogl-all-2.0.2.jar!/com/jogamp/opengl/util/AnimatorBase.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="0" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="101" column="0" selection-start="4144" selection-end="4144" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/statements/RunAfters.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="16" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="70" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="12" column="70" selection-start="437" selection-end="437" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/runners/ParentRunner.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="25" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="44" column="25" selection-start="2393" selection-end="2393" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+        <state line="10" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/EventListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="0.24416517">
-          <folding />
-        </state>
+        <state line="31" column="17" selection-start="350" selection-end="350" vertical-scroll-proportion="0.24416517" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controlInterface/CommandQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
+        <state line="8" column="22" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/controlInterface/CommandQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="13" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="18" column="13" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1183,7 +788,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/GameEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+        <state line="24" column="13" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1204,7 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/DapperEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="13" selection-start="429" selection-end="429" vertical-scroll-proportion="-1.6279926">
+        <state line="48" column="45" selection-start="1690" selection-end="1690" vertical-scroll-proportion="0.71885717">
           <folding />
         </state>
       </provider>
